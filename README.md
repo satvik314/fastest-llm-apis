@@ -20,15 +20,16 @@ A simple benchmark comparing the performance of Llama 3.3 70B model across diffe
 ## Results
 
 LLM Performance Comparison:
-| Provider   | Tokens/sec | First Token | Latency |
+
+| Provider | Tokens/sec | First Token | Latency |
 |------------|------------|-------------|---------|
-| Groq       | 1,734.4/s  | 0.005s     | 0.72s   |
-| Cerebras   | 1,678.9/s  | 0.005s     | 1.01s   |
-| Sambanova  | 323.5/s    | 0.212s     | 4.33s   |
+| Cerebras | 2,059.9/s | 0.007s | 0.37s |
+| Groq | 2,047.2/s | 0.005s | 0.35s |
+| Sambanova | 269.0/s | 0.313s | 2.54s |
 
 
 ## Key Findings
-- Groq leads with the highest tokens/sec at 1,734.4
+- Cerebras leads with the highest tokens/sec at 2,059.9
 - Groq and Cerebras have similar first token latency (0.005s)
 - Sambanova has higher latency but maintains consistent output
 - All providers successfully handle long-form generation
