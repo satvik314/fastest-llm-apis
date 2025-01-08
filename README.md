@@ -4,12 +4,12 @@ Notebook by [Build Fast with AI](https://www.buildfastwithai.com/genai-course)
 
 A simple benchmark comparing the performance of Llama 3.3 70B model across different API providers.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
+
 ## Providers Tested
 - Groq
 - Cerebras
 - Sambanova
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
 
 ## Metrics Measured
 - Tokens per second (generation speed)
