@@ -20,12 +20,11 @@ A simple benchmark comparing the performance of Llama 3.3 70B model across diffe
 ## Results
 
 LLM Performance Comparison:
----------------------------------------------------
-Provider Tokens/sec First Token Latency 
----------------------------------------------------
-Groq     1,734.4/s 0.005s 0.72s 
-Cerebras 1,678.9/s 0.005s 1.01s 
-Sambanova 323.5/s 0.212s 4.33s 
+| Provider   | Tokens/sec | First Token | Latency |
+|------------|------------|-------------|---------|
+| Groq       | 1,734.4/s  | 0.005s     | 0.72s   |
+| Cerebras   | 1,678.9/s  | 0.005s     | 1.01s   |
+| Sambanova  | 323.5/s    | 0.212s     | 4.33s   |
 
 
 ## Key Findings
